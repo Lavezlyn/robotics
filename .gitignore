@@ -1,0 +1,6 @@
+# Ignore all pdf files
+*.pdf
+
+# Ignore data, plots
+data/*
+plots/*

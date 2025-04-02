@@ -4,15 +4,9 @@
 # Ignore all zip files
 *.zip
 
-# Ignore data, plots
-/hw2/exercise2_fastslam/data/
-/hw2/exercise2_fastslam/plots/
+# Ignore all data, plots recursively
+**/data/
+**/plots/
 
-.DS_Store
-/hw1/.DS_Store
-/hw2/.DS_Store
-/hw3/.DS_Store
-/hw4/.DS_Store
-/hw5/.DS_Store
-/hw6/.DS_Store
-/hw7/.DS_Store
+# Ignore all .DS_Store files recursively
+**/.DS_Store

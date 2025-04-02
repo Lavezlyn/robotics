@@ -1,6 +1,11 @@
 # Ignore all pdf files
 *.pdf
 
+# Ignore all zip files
+*.zip
+
 # Ignore data, plots
-data/*
-plots/*
+/hw2/exercise2_fastslam/data/
+/hw2/exercise2_fastslam/plots/
+
+.DS_Store
